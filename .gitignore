@@ -1,0 +1,47 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Replit
+.replit
+*.replit
+
+# n8n workflow exports
+*.json
+
+# Xano exports or backups
+*.xano
+*.sqlite
+*.bak
+
+# Stripe secret keys or config
+stripe/.env
+stripe/secret_config.js
+
+# OpenAI keys
+openai/.env
+
+# Build output
+/dist
+/build
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
